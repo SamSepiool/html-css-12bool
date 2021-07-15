@@ -1,0 +1,23 @@
+.box,
+.box-nested{
+    min-height: 50px;
+    text-align: center;
+    padding: 15px;
+    color:white;
+    border: 1px solid white;
+
+}
+
+.box-nested{
+    background-color: #00e165;
+    border-color: #006cfa;
+}
+
+[class*="col-"]{
+    background-color: #006cfa;
+}
+
+.container-fluid{
+    margin-bottom: 20px;
+}
+
